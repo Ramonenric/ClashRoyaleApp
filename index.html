@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="clashroyale.jpg" alt="Presentación de la App">
+
+    <div id="player1" class="jugador">
+        <h2>Jugador 1</h2>
+        <div id="cards-player1" class="cards"></div>
+    </div>
+
+    <div id="player2" class="jugador">
+        <h2>Jugador 2</h2>
+        <div id="cards-player2" class="cards"></div>
+    </div>
+
+    <button id="startBtn">Start!</button>
+    <button id="fightBtn">Fight!</button>
+
+    <div id="infoFight" class="hidden"></div>
+    <div id="result" class="hidden"></div>
+    <button id="resetBtn">Reset Game</button>
+
+    <template id="template">
+        <article class="card">
+            <h2 id="name"></h2>
+            <img src="" alt="">
+            <p id="stats"></p>
+        </article>
+    </template>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
